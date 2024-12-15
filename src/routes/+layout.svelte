@@ -92,26 +92,26 @@
 						target="_blank"
 						class="transition-all duration-300 hover:scale-110 hover:opacity-95"
 					>
-						<Icon icon={'ant-design:linkedin-filled'} class="text-2xl" />
+						<Icon icon={'ant-design:linkedin-filled'} class="text-xl" />
 					</a>
 					<a
 						href={github || 'https://github.com/geekvinay'}
 						target="_blank"
 						class="transition-all duration-300 hover:scale-110 hover:opacity-95"
 					>
-						<Icon icon={'ant-design:github-outlined'} class="text-2xl" />
+						<Icon icon={'ant-design:github-outlined'} class="text-xl" />
 					</a>
 					<a
 						href={instagram || 'https://instagram.com/_vinaykishore'}
 						target="_blank"
 						class="transition-all duration-300 hover:scale-110 hover:opacity-95"
 					>
-						<Icon icon={'ant-design:instagram-outlined'} class="text-2xl" />
+						<Icon icon={'ant-design:instagram-outlined'} class="text-xl" />
 					</a>
 					<button onclick={toggleMode} class="transition-all duration-300 hover:scale-110 hover:opacity-95">
 						<Icon
 							icon={$mode == 'light' ? 'ant-design:sun-filled' : 'ant-design:moon-filled'}
-							class="text-2xl"
+							class="text-xl"
 						/>
 					</button>
 				</div>
