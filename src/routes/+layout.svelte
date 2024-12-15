@@ -25,7 +25,7 @@
 
 	const getWeatherAndTime = async () => {
 		try {
-			const apiKey = 'b3b631d8e277ca3f745a22902d340564';
+			const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 			const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
 
 			const weatherResponse = await fetch(weatherUrl);
